@@ -6,14 +6,29 @@ font-family: 'Ubuntu', sans-serif;
     color:#1dadc0 ;
 }
 .button-prm{
-    border-radius: 5px;
+border-radius: 5px;
 background: #1dadc0;
 color: black;
 border: 0;
-font-size: 20px;
+font-size: 17px;
 font-weight: 700;
-padding: 15px 30px;
+padding: 10px 20px;
 }
+
+.section-title{
+color: #181818;
+text-align: center;
+font-size: 35px;
+font-weight: 700;
+
+}
+.section-desc{
+    color: #3a3939;
+    text-align: center;
+    font-size: 18px;
+
+}
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -21,10 +36,8 @@ nav{
     margin: 0 200px;
 }
 .nav-title{
-    color: var(--Dark-01, #181818);
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #181818;
 font-size: 45px;
-font-style: normal;
 font-weight: 800;
 }
 nav > ul{
@@ -42,13 +55,55 @@ nav a{
 
 .header{
     background-color: #F0FFFF;
+    background-image: url('../images/header.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-position: 100%;
 }
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+.banner-cont{
+    max-width: 500px;
 }
 .banner .my-pic{
     width: 300px;
     border-radius: 17px;
+}
+.banner-welcome{
+    font-size: 35px;
+    color: #3a3939;
+    margin-bottom: 0px;
+}
+.banner-title{
+    font-size: 55px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+main{
+    max-width: 1140px;
+}
+
+.banner-intro{
+    max-width: 500px;
+    margin: 40px auto;
+}
+
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background: #F0F8FF;
+    margin: 120px;
+}
+.about-info-box{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
 }
