@@ -1,0 +1,54 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+}
+.text-primary{
+    color:#1dadc0 ;
+}
+.button-prm{
+    border-radius: 5px;
+background: #1dadc0;
+color: black;
+border: 0;
+font-size: 20px;
+font-weight: 700;
+padding: 15px 30px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+}
+.nav-title{
+    color: var(--Dark-01, #181818);
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-size: 45px;
+font-style: normal;
+font-weight: 800;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: #3a3939;
+}
+
+.header{
+    background-color: #F0FFFF;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .my-pic{
+    width: 300px;
+    border-radius: 17px;
+}
