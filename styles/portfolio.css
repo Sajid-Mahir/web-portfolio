@@ -2,9 +2,7 @@ body{
     font-family: 'Montserrat', sans-serif;
 font-family: 'Ubuntu', sans-serif;
 }
-.text-primary{
-    color:#1dadc0 ;
-}
+
 .button-prm{
 border-radius: 5px;
 background: #1dadc0;
@@ -27,6 +25,7 @@ font-weight: 700;
     color: #3a3939;
     text-align: justify;
     font-size: 18px;
+    padding-bottom: 30px;
 }
 
 nav{
@@ -140,12 +139,14 @@ font-weight: 400;
 margin-bottom: 30px;
 color: #3a3939;
 font-size: 30px;
-font-weight: 700;
 text-align: center;
 }
 .resume-box{
     display: flex;
-    gap:400px;
+    gap: 100px;
+}
+.resume-col{
+    width: 50%;
 }
 .resume-item-inst{
     margin-top: 0px;
@@ -157,4 +158,33 @@ text-align: center;
 .cv{
     text-align: center;
     margin-top: 50px;
+}
+footer{
+    display: flex;
+    background: #F0FFFF;
+    margin-top: 100px;
+    padding: 130px 200px;
+    gap: 100px;
+}
+.social-media .logo{
+    width: 30px;
+}
+.footer-col{
+    width: 50%;
+}
+
+.social-media>a{
+    margin-right: 20px;
+}
+
+.contact input[type="text"], .contact input[type="email"], textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 20px 40px;
+    color: #3a3939;
+    border-radius: 5px;
+    background-color: white;
+    border-color: #1dadc0;
+    border-style: double;
+    width: 100%;
 }
