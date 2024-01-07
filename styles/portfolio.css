@@ -137,8 +137,24 @@ font-weight: 400;
 
 
 .resume-col-title{
+margin-bottom: 30px;
 color: #3a3939;
 font-size: 30px;
 font-weight: 700;
-
+text-align: center;
+}
+.resume-box{
+    display: flex;
+    gap:400px;
+}
+.resume-item-inst{
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.resume-item-desc{
+    text-align: justify;
+}
+.cv{
+    text-align: center;
+    margin-top: 50px;
 }
